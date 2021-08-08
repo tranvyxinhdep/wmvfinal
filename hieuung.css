@@ -1,0 +1,48 @@
+
+/*
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #353535;
+  font-family: "ubuntu", Arial, sans-serif;
+  overflow-x: hidden;
+  display: grid;
+  place-items: center;
+}
+*/
+
+
+
+.hieuung{
+  float:right;
+	padding:5px;
+	margin-right:100px;
+	
+	
+/*margin-top:50px;*/
+}
+.hieuung h3 {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Sigmar One', cursive;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Sigmar One', cursive;
+  background: linear-gradient(90deg, rgba(247,108,108,1) 14%, rgba(168,208,230,1) 72%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
